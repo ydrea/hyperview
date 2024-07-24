@@ -1,6 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import { SvgXml } from 'react-native-svg';
 import type { HvComponentProps, LocalName } from 'hyperview';
+import React from 'react';
 
 const DEFAULT_HEIGHT = '100%';
 const DEFAULT_WIDTH = '100%';

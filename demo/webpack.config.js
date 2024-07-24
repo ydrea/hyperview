@@ -6,6 +6,9 @@ module.exports = async function (env, argv) {
     babel: {
       dangerouslyAddModulePathsToTranspile: ['hyperview'],
     },
+    externals: {
+      "react-native": true
+    }
   }, argv);
   return config;
 };
