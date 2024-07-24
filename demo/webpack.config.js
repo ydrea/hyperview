@@ -8,6 +8,10 @@ module.exports = async function (env, argv) {
     },
     externals: {
       "react-native": true
+    },
+    resolve: {
+      alias: {
+        'react-native-svg': 'react-native-svgxml-web'}
     }
   }, argv);
   return config;
