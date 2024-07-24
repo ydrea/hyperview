@@ -1,4 +1,3 @@
-// import React from 'react';
 import { SvgXml } from 'react-native-svg';
 import type { HvComponentProps, LocalName } from 'hyperview';
 import React from 'react';
